@@ -10,6 +10,11 @@ namespace AnEchoClientOPG
     {
         static void Main(string[] args)
         {
+            //In Main create an object of your Client-class and call the method 'Start()'.
+            Client client = new Client();
+            client.Start();
+
+            Console.ReadLine();
         }
     }
 }
